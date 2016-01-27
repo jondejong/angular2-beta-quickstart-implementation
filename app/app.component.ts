@@ -11,7 +11,10 @@ interface Hero {
         <h1>{{title}}</h1>
         <h2>{{hero.name}} Details</h2>
         <div><label>ID: </label>{{hero.id}}</div>
-        <div><label>Name: </label>{{hero.name}}</div>
+        <div>
+            <label>Name: </label>
+            <div><input value="{{hero.name}}" placeholder="name" /> </div>
+        </div>
     `
 })
 
